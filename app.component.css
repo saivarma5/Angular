@@ -1,0 +1,15 @@
+.spacer {
+  flex: 1 1 auto;
+}
+.background{
+  
+  min-block-size: 100%;
+-webkit-box-align: center;
+background-image: url('/assets/log.jpg');
+background-size:cover;
+ background-position:center; 
+}
+.mat-cssaa{
+  background-color: gray;
+  color: white;
+}

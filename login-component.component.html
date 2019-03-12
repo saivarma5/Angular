@@ -1,0 +1,29 @@
+  <mat-toolbar  style="min-height: 30px !important; height: 30px !important;">
+  <span style="margin:auto">LOGIN</span>
+</mat-toolbar>
+<div class="container">
+<mat-card class="my-card" >
+   <mat-card-content>
+     
+      <form class="my-form" >
+         <mat-form-field class="full-width" >
+            <mat-label>Email</mat-label>
+            <input   matInput  placeholder="Email" name="email"> 
+         </mat-form-field><br><br>
+         <mat-form-field class="full-width" >
+            <mat-label>Password</mat-label>
+            <input  matInput  placeholder="Password" name="password">
+         </mat-form-field>
+         <br><br> 
+          <mat-checkbox class="checkbox" color="warn"><b>Remember Me</b></mat-checkbox>
+   
+      </form>
+     
+   </mat-card-content>
+   <br>
+   <mat-card-actions class="button">
+      <button  mat-raised-button (click)="login()" [color]="'success'">LOGIN</button>
+   </mat-card-actions>
+ 
+</mat-card>
+</div>

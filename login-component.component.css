@@ -1,0 +1,40 @@
+.my-form{
+  
+  min-width: 50%;
+  max-width: 100%;
+  margin-left: 30%;
+  
+}
+.full-width {
+  
+  width: 60%;
+
+} 
+.my-card{
+  background-color: transparent;
+ width: 50%;
+ height: 60%;
+
+} 
+
+.mat-success {
+    background-color: cornflowerblue ;
+    color: #fff;
+}
+.button{
+   align-items: center;
+  align-content: center;
+  text-align: center;
+}
+.container{
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.checkbox{
+  
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 100%;
+} 
